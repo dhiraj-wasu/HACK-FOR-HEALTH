@@ -63,35 +63,36 @@
    </style>
 </head>
 <body>
-   <h1>PREDICT HEALTH STATUS</h1>
+   <h1>PREDICT MATERNAL HEALTH STATUS</h1>
    {% csrf_token %}
    <form action="" method="post">
-      <label for="age"><b>Age</b></label>
+      <label for="age"><b>Age (years)</b></label>
       <input type="number" placeholder="Enter Age" name="age" required><br>
       <br>
-      <label for="systolic bp"><b>Systolic Bp</b></label>
+      <label for="systolic bp"><b>Systolic Bp (mmHg)</b></label>
       <input type="number" placeholder="Enter Systolic Bp" name="systolicBp" required><br>
       <br>
-      <label for="diastolic bp"><b>Diastolic Bp</b></label>
+      <label for="diastolic bp"><b>Diastolic Bp (mmHg)</b></label>
       <input type="number" placeholder="Enter Diastolic Bp" name="diastolicbp" required><br>
       <br>
-      <label for="blood sugar"><b>Blood Sugar</b></label>
+      <label for="blood sugar"><b>Blood Sugar (mmol/L)</b></label>
       <input type="number" placeholder="Enter Blood Sugar" name="bloodsugar" step=".01" required><br>
       <br>
-      <label for="body temp"><b>Body Temp</b></label>
+      <label for="body temp"><b>Body Temp (deg F)</b></label>
       <input type="number" placeholder="Enter Body Temp" name="bodytemp" required><br>
       <br>
-      <label for="heart rate"><b>Heart Rate</b></label>
+      <label for="heart rate"><b>Heart Rate (Beats/min)</b></label>
       <input type="number" placeholder="Enter Heart Rate" name="heartrate" required><br>
       <br>
-      {% comment %} <label for="risk level"><b>Risk Level</b></label>
-      <input type="number" placeholder="Enter Risk Level" name="risklevel" required><br>
+      {% comment %} <!--<label for="risk level"><b>Risk Level</b></label>
+      <input type="number" placeholder="Enter Risk Level" name="risklevel" required>-->
+      <br>
       <br>
        {% endcomment %}
       <button type="predict" class="predict">Predict</button>
       <div class="predict">
     
-        <p>Already Entered? <a href="#">predict</a>.</p>
+        <!--<p>Already Entered? <a href="#">predict</a>.</p>-->
       </div>
    </form>
    
