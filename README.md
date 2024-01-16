@@ -15,9 +15,9 @@ USAGE:
   - see the result and some health tips
 OR
   - download the repo and extract all the files
-  - install the libraries(numpy, pandas, django, sklearn, matplotlib)
-  - now open the landing.html file and follow the instruction given on the pages
-  - input the parameters and see the result
+  - install the libraries(numpy, pandas, django, sklearn, matplotlib) using requirement.txt 
+  - now open the folder  in vs and run this 'python manage.py runserver'  and follow the instruction given on the pages
+  - input the parameters and see the result ( may delay due model )
 
 NOTE - the hosting of the website was not possible due to various techinical errors. we tried our best to host the website but were not able to do so. kindly follow the second part of the usage.
 HAPPY LEARNING :))
