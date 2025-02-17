@@ -19,5 +19,4 @@ OR
   - now open the folder  in vs and run this 'python manage.py runserver'  and follow the instruction given on the pages
   - input the parameters and see the result ( may delay due model )
 
-NOTE - the hosting of the website was not possible due to various techinical errors. we tried our best to host the website but were not able to do so. kindly follow the second part of the usage.
-HAPPY LEARNING :))
+
